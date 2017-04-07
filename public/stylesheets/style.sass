@@ -1,9 +1,12 @@
+
+
 body
   // padding: 50px
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  font: 14px "Lato", "Lucida Grande", Helvetica, Arial, sans-serif
+  color: white
 
 a
-  color: #00B7FF
+  color: #B82601
 
 .navbar
   padding: 15px 0
@@ -26,12 +29,55 @@ a
     text-align: center
 
 #landing-section
-  background: url("/images/space-background1.jpg")
+  // background: linear-gradient( to right, #062F4F, #813772, #B82601), url("/images/background2.jpg")
+  background: linear-gradient( to right, rgba(0, 0, 0, 0.5), rgba(6,47,79, 0.5), rgba(129,55,114, 0.5), rgba(184,38,1, 0.5)), url("/images/background2.jpg")
   background-position: center
   background-size: cover
   padding-top: 80px
-  height: 1000px
+  height: 100vh
+  color: white
+  text-align: center
 
-  .tom
-    color: white
-    font-size: 50px
+  h1
+    margin-top: 5vh
+    @media (max-width: 767px)
+      margin-top: 10vh
+
+.profile-pic
+  margin-top: 10vh
+  max-width: 40%
+  border-radius: 50%
+  @media (min-width: 768px)
+    max-width: 20%
+    margin-bottom: 10vh
+
+.section-title
+
+#about-section
+  background-color: #062F4F
+  height: 50vh
+  padding-top: 2vh
+  text-align: center
+
+  p
+    margin-top: 2vh
+    font-size: 20px
+
+#projects-section-before
+  background-color: #FFFFFF
+  height: 10vh
+  text-align: center
+  color: black
+
+#projects-section
+  background-color: #FFFFFF
+  height: 90vh
+  text-align: center
+  color: black
+
+#contact-section
+  background-color: #000000
+  height: 100vh
+
+.navbar-inverse .navbar-nav>li>a:hover
+  color: #B82601
