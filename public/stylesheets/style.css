@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Euronism_b";
+  src: url("/fonts/D3Euronism_b.ttf"); }
+
 body {
   font: 14px "Lato", "Lucida Grande", Helvetica, Arial, sans-serif;
   color: white; }
@@ -66,13 +70,49 @@ a {
 
 #projects-section {
   background-color: #FFFFFF;
-  height: 90vh;
   text-align: center;
   color: black; }
+  #projects-section p {
+    font-size: 20px;
+    color: #595959; }
+
+.project {
+  padding: 10vh 10px; }
+
+.project-pic {
+  max-width: 50%;
+  margin: 5vh 0; }
+
+#matchfacts-logo {
+  font-family: "Euronism_b", sans-serif; }
+
+#risk-logo {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 10px; }
+
+#swapper-logo {
+  font-family: "Tangerine", sans-serif;
+  color: #062F4F; }
 
 #contact-section {
   background-color: #000000;
-  height: 100vh; }
+  height: 80vh;
+  text-align: center; }
+  #contact-section hr {
+    margin-bottom: 5vh; }
+  #contact-section a {
+    display: inline-block;
+    opacity: 0; }
+
+#email {
+  font-size: 20px;
+  margin: 0 10px; }
+
+.social-row {
+  padding-top: 10vh; }
+  .social-row a {
+    margin: 20px 40px; }
 
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #B82601; }
